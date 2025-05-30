@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Sora:wght@100..800&display=swap');
+
+body {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  color: #171B5B;
+}
+
+.number-badge {
+  @apply bg-[#EDFFBD] text-xs p-2 rounded-xl flex items-center justify-center font-semibold;
+}
