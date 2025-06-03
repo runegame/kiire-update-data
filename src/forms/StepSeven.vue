@@ -95,6 +95,7 @@
       variant="primary"
       type="submit"
       label="Finalizar"
+      :loading="loading"
     />
 
     <BackButton />
@@ -103,11 +104,13 @@
 
 <script setup>
 import { Form } from '@primevue/forms';
-import { reactive } from 'vue';
+import { reactive, ref } from 'vue'
 import BackButton from '@/components/BackButton.vue'
 import { useFormStore } from '@/store/forms.js'
 
 const formStore = useFormStore()
+
+const loading = ref(false)
 
 const initialValues = reactive({
   businessSize: formStore.formData.businessSize,
@@ -151,10 +154,18 @@ const resolver = ({ values }) => {
   };
 };
 
-const onFormSubmit = ({ valid, values }) => {
-  if (valid) {
+const onFormSubmit = async ({ valid, values }) => {
+  try {
+    if (!valid) return
+
     formStore.updateFormData(values)
-    console.log(formStore.formData)
+
+    loading.value= true
+    await formStore.submitForm()
+    loading.value= false
+    formStore.isFinished = true
+  } catch (e) {
+    console.log(e)
   }
 };
 </script>

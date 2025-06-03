@@ -9,3 +9,15 @@ body {
 .number-badge {
   @apply bg-[#EDFFBD] text-xs p-2 rounded-xl flex items-center justify-center font-semibold;
 }
+
+.left-container {
+  background-image: url("https://kiire.com/sites/default/files/2025-06/data-bg.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.finish-screen {
+  background-image: url("https://kiire.com/sites/default/files/2025-06/Vector.png");
+  background-size: cover;
+  background-position: center;
+}
