@@ -56,4 +56,4 @@ app.component('RadioButton', RadioButton)
 // eslint-disable-next-line vue/multi-word-component-names,vue/no-reserved-component-names
 app.component('Select', Select)
 
-app.mount('#app')
+app.mount('#update-data-form')
