@@ -1,7 +1,7 @@
 <template>
   <div
     @click="formStore.previousStep()"
-    class="flex gap-4 items-center justify-center hover:bg-gray-200 py-2 transition-all rounded cursor-pointer"
+    class="ki:flex ki:gap-4 ki:items-center ki:justify-center ki:hover:bg-gray-200 ki:py-2 ki:transition-all ki:rounded ki:cursor-pointer"
   >
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M12 0C18.6266 0 24 5.37338 24 12C24 18.6266 18.6266 24 12 24C5.37338 24 0 18.6266 0 12C0 5.37338 5.37338 0 12 0Z" fill="#EFF1EC"/>

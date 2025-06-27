@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-[#EFF1EC] h-[2px] w-full">
-    <div class="h-[2px] bg-[#171B5B]" :style="{width: `calc(100% / 7 * ${formStore.step})`}"></div>
+  <div class="ki:bg-[#EFF1EC] ki:h-[2px] ki:w-full">
+    <div class="ki:h-[2px] ki:bg-[#171B5B]" :style="{width: `calc(100% / 7 * ${formStore.step})`}"></div>
   </div>
 </template>
 

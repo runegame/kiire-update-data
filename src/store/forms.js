@@ -32,7 +32,7 @@ export const useFormStore = defineStore('forms', {
       tiktok: '',
     },
     step: 1,
-    isFinished: true,
+    isFinished: false,
   }),
   actions: {
     previousStep() {

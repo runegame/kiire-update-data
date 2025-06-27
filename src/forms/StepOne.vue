@@ -1,12 +1,12 @@
 <template>
-  <Form v-slot="$form" :initialValues :resolver @submit="onFormSubmit" class="flex flex-col gap-8 w-full">
-    <div class="flex text-xl font-bold justify-between items-center">
-      <div class="text-[#171B5B]">Tu identidad</div>
-      <div class="text-gray-500 font-light">1 - 7</div>
+  <Form v-slot="$form" :initialValues :resolver @submit="onFormSubmit" class="ki:flex ki:flex-col ki:gap-8 ki:w-full">
+    <div class="ki:flex ki:text-xl ki:font-bold ki:justify-between ki:items-center">
+      <div class="ki:text-[#171B5B]">Tu identidad</div>
+      <div class="ki:text-gray-500 ki:font-light">1 - 7</div>
     </div>
 
-    <div class="flex flex-col gap-2">
-      <label class="flex items-center gap-4" for="fullName">
+    <div class="ki:flex ki:flex-col ki:gap-2">
+      <label class="ki:flex ki:items-center ki:gap-4" for="fullName">
             <span class="number-badge">
               01
             </span>
@@ -25,8 +25,8 @@
       </Message>
     </div>
 
-    <div class="flex flex-col gap-2">
-      <label class="flex items-center gap-4" for="birthday">
+    <div class="ki:flex ki:flex-col ki:gap-2">
+      <label class="ki:flex ki:items-center ki:gap-4" for="birthday">
             <span class="number-badge">
               02
             </span>
@@ -51,8 +51,8 @@
       </Message>
     </div>
 
-    <div class="flex flex-col gap-2">
-      <label class="flex items-center gap-4" for="typeOfPerson">
+    <div class="ki:flex ki:flex-col ki:gap-2">
+      <label class="ki:flex ki:items-center ki:gap-4" for="typeOfPerson">
             <span class="number-badge">
               03
             </span>
@@ -73,9 +73,9 @@
       </Message>
     </div>
 
-    <div class="flex flex-col gap-2">
-      <label class="flex items-center gap-4" for="identification">
-            <span class="number-badge">
+    <div class="ki:flex ki:flex-col ki:gap-2">
+      <label class="ki:flex ki:items-center ki:gap-4" for="identification">
+            <span class="ki:number-badge">
               04
             </span>
         ¿Cúal es tu número de cédula?

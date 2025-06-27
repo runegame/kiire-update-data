@@ -1,43 +1,43 @@
 <template>
-  <div class="bg-[#F8F8F8]">
+  <div class="ki:bg-[#F8F8F8]">
     <div
-      class="finish-screen flex flex-col items-center justify-center gap-10 px-4"
+      class="finish-screen ki:flex ki:flex-col ki:items-center ki:justify-center ki:gap-10 ki:px-4"
       v-if="formStore.isFinished"
     >
-      <img class="mt-20" src="https://kiire.com/sites/default/files/2025-06/Group%2021.png" alt="Check">
+      <img class="ki:mt-20" src="https://kiire.com/sites/default/files/2025-06/Group%2021.png" alt="Check">
 
-      <h2 class="text-2xl md:text-7xl font-bold">¡Eso es todo!</h2>
+      <h2 class="ki:text-2xl ki:md:text-7xl ki:font-bold">¡Eso es todo!</h2>
 
-      <p class="md:text-2xl text-center">Gracias por tu tiempo, <br> pronto te estaremos contactando para darte un detallito</p>
+      <p class="ki:md:text-2xl ki:text-center">Gracias por tu tiempo, <br> pronto te estaremos contactando para darte un detallito</p>
 
       <div @click="finish" class="flex gap-4 uppercase cursor-pointer">
         <img src="https://kiire.com/sites/default/files/2025-06/Layer%202.png" alt="Arrow Back">
 
-        <span class="underline">ir a kiire.com</span>
+        <span class="ki:underline">ir a kiire.com</span>
       </div>
 
       <img src="https://kiire.com/sites/default/files/2025-06/Layer_1-2.png" alt="Finish">
     </div>
 
     <div
-      class="flex flex-wrap items-center md:min-h-screen w-full"
+      class="ki:flex ki:flex-wrap ki:items-center ki:md:min-h-screen ki:w-full"
       v-else
     >
       <div
-        class="left-container flex flex-col items-center justify-center w-full md:w-1/2 gap-4 md:gap-10 p-4 py-10 md:h-screen">
-        <img class="max-w-[80px] md:max-w-100%" src="https://kiire.com/sites/default/files/2025-06/icon.png" alt="Icon">
+        class="left-container ki:flex ki:flex-col ki:items-center ki:justify-center ki:w-full ki:md:w-1/2 ki:gap-4 ki:md:gap-10 ki:p-4 ki:py-10 ki:md:h-screen">
+        <img class="ki:max-w-[80px] ki:md:max-w-100%" src="https://kiire.com/sites/default/files/2025-06/icon.png" alt="Icon">
 
-        <div class="text-3xl md:text-6xl font-bold">
+        <div class="ki:text-3xl ki:md:text-6xl ki:font-bold">
           Cuéntanos de ti
         </div>
 
-        <p class="max-w-[300px] text-center">Para darte todo lo mejor de nosotros, porfa contéstanos algunas preguntas</p>
+        <p class="ki:max-w-[300px] ki:text-center">Para darte todo lo mejor de nosotros, porfa contéstanos algunas preguntas</p>
       </div>
 
-      <div class="w-full md:w-1/2 container mx-auto py-10 px-4 lg:px-30">
+      <div class="ki:w-full ki:md:w-1/2 ki:container ki:mx-auto ki:py-10 ki:px-4 ki:lg:px-30">
         <StepperBar />
 
-        <div class="card flex justify-center mt-6">
+        <div class="ki:card ki:flex ki:justify-center ki:mt-6">
           <component :is="steps[formStore.step]" />
         </div>
       </div>
