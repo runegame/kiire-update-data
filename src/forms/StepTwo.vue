@@ -57,6 +57,7 @@
         name="businessCity"
         :suggestions="filteredCities"
         option-label="name"
+        forceSelection
         placeholder="Selecciona tu ciudad"
         @complete="search"
         fluid
