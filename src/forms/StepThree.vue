@@ -17,7 +17,7 @@
       <InputText
         name="businessAdminName"
         type="text"
-        placeholder="Escribe el nombre de tu negocio"
+        placeholder="Escribe el nombre del administrador"
         fluid
       />
 
