@@ -28,7 +28,7 @@ export default defineConfig({
       entry: fileURLToPath(new URL('./src/main.js', import.meta.url)),
       name: 'MyVueApp',
       formats: ['iife'],
-      fileName: () => 'kiire-update-info.js'
+      fileName: () => 'kiire-update-info2.js'
     },
     minify: 'terser',
     terserOptions: {
