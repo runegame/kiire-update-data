@@ -28,7 +28,7 @@ export default defineConfig({
       entry: fileURLToPath(new URL('./src/main.js', import.meta.url)),
       name: 'MyVueApp',
       formats: ['iife'],
-      fileName: () => 'kiire-update-info3.js'
+      fileName: () => 'kiire-update-info4.js'
     },
     minify: 'terser',
     terserOptions: {
@@ -42,7 +42,7 @@ export default defineConfig({
         globals: {
           vue: 'Vue'
         },
-        assetFileNames: () => 'kiire-update-info3.css'
+        assetFileNames: () => 'kiire-update-info4.css'
       }
     }
   },
