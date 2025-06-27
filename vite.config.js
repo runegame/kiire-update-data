@@ -8,6 +8,14 @@ export default defineConfig({
     vue(),
     vueDevTools()
   ],
+  build: {
+    minify: 'terser',
+    terserOptions: {
+      mangle: {
+        toplevel: true,
+      }
+    }
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

@@ -32,6 +32,7 @@
     "postcss": "^8.5.4",
     "prettier": "3.5.3",
     "tailwindcss": "^4.1.8",
+    "terser": "^5.43.1",
     "vite": "^6.2.4",
     "vite-plugin-vue-devtools": "^7.7.2"
   }
