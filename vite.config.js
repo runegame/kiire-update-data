@@ -9,7 +9,8 @@ export default defineConfig({
     vueDevTools()
   ],
   define: {
-    'process.env': '"production"'
+    'process.env': {},
+    'process.env.NODE_ENV': JSON.stringify('production')
   },
   build: {
     lib: {
