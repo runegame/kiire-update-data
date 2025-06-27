@@ -9,6 +9,12 @@ export default defineConfig({
     vueDevTools()
   ],
   build: {
+    lib: {
+      entry: fileURLToPath(new URL('./src/main.js', import.meta.url)),
+      name: 'MyVueApp', // nombre global (evita conflicto)
+      formats: ['iife'],
+      fileName: () => 'kiire-update-info.js'
+    },
     minify: 'terser',
     terserOptions: {
       mangle: {
