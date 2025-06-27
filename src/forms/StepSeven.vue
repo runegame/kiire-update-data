@@ -1,12 +1,12 @@
 <template>
-  <Form v-slot="$form" :initialValues :resolver @submit="onFormSubmit" class="flex flex-col gap-8 w-full">
-    <div class="flex text-xl font-bold justify-between items-center">
+  <Form v-slot="$form" :initialValues :resolver @submit="onFormSubmit" class="ki:flex ki:flex-col ki:gap-8 ki:w-full">
+    <div class="ki:flex ki:text-xl ki:font-bold ki:justify-between ki:items-center">
       <div class="text-[#171B5B]">Tamaño y facturación</div>
       <div class="text-gray-500 font-light">7 - 7</div>
     </div>
 
-    <div class="flex flex-col gap-2">
-      <label class="flex items-center gap-4" for="businessSize">
+    <div class="ki:flex ki:flex-col ki:gap-2">
+      <label class="ki:flex ki:items-center ki:gap-4" for="businessSize">
             <span class="number-badge">
               21
             </span>
@@ -29,8 +29,8 @@
       </Message>
     </div>
 
-    <div class="flex flex-col gap-2">
-      <label class="flex items-center gap-4" for="averageMonthlyRevenue">
+    <div class="ki:flex ki:flex-col ki:gap-2">
+      <label class="ki:flex ki:items-center ki:gap-4" for="averageMonthlyRevenue">
             <span class="number-badge">
               22
             </span>
@@ -53,8 +53,8 @@
       </Message>
     </div>
 
-    <div class="flex flex-col gap-2">
-      <label class="flex items-center gap-4" for="website">
+    <div class="ki:flex ki:flex-col ki:gap-2">
+      <label class="ki:flex ki:items-center ki:gap-4" for="website">
             <span class="number-badge">
               23
             </span>
@@ -73,8 +73,8 @@
       </Message>
     </div>
 
-    <div class="flex flex-col gap-2">
-      <label class="flex items-center gap-4" for="website">
+    <div class="ki:flex ki:flex-col ki:gap-2">
+      <label class="ki:flex ki:items-center ki:gap-4" for="website">
             <span class="number-badge">
               24
             </span>
@@ -82,7 +82,7 @@
         Déjanos tus redes sociales (opcional)
       </label>
 
-      <div class="flex gap-4">
+      <div class="ki:flex ki:gap-4">
         <InputText name="instagram" type="text" placeholder="@Instagram" fluid />
 
         <InputText name="facebook" type="text" placeholder="@Facebook" fluid />

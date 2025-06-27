@@ -10,7 +10,7 @@
 
       <p class="ki:md:text-2xl ki:text-center">Gracias por tu tiempo, <br> pronto te estaremos contactando para darte un detallito</p>
 
-      <div @click="finish" class="flex gap-4 uppercase cursor-pointer">
+      <div @click="finish" class="ki:flex ki:gap-4 uppercase cursor-pointer">
         <img src="https://kiire.com/sites/default/files/2025-06/Layer%202.png" alt="Arrow Back">
 
         <span class="ki:underline">ir a kiire.com</span>

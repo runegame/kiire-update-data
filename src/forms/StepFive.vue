@@ -1,12 +1,12 @@
 <template>
-  <Form v-slot="$form" :initialValues :resolver @submit="onFormSubmit" class="flex flex-col gap-8 w-full">
-    <div class="flex text-xl font-bold justify-between items-center">
+  <Form v-slot="$form" :initialValues :resolver @submit="onFormSubmit" class="ki:flex ki:flex-col ki:gap-8 ki:w-full">
+    <div class="ki:flex ki:text-xl ki:font-bold ki:justify-between ki:items-center">
       <div class="text-[#171B5B]">Tamaño y facturación</div>
       <div class="text-gray-500 font-light">5 - 7</div>
     </div>
 
-    <div class="flex flex-col gap-2">
-      <label class="flex items-center gap-4" for="businessActivity">
+    <div class="ki:flex ki:flex-col ki:gap-2">
+      <label class="ki:flex ki:items-center ki:gap-4" for="businessActivity">
             <span class="number-badge">
               15
             </span>
@@ -29,8 +29,8 @@
       </Message>
     </div>
 
-    <div class="flex flex-col gap-2">
-      <label class="flex items-center gap-4" for="preferredPaymentMethods">
+    <div class="ki:flex ki:flex-col ki:gap-2">
+      <label class="ki:flex ki:items-center ki:gap-4" for="preferredPaymentMethods">
             <span class="number-badge">
               16
             </span>
@@ -53,8 +53,8 @@
       </Message>
     </div>
 
-    <div class="flex flex-col gap-2">
-      <label class="flex items-center gap-4" for="usesOnlyKiire">
+    <div class="ki:flex ki:flex-col ki:gap-2">
+      <label class="ki:flex ki:items-center ki:gap-4" for="usesOnlyKiire">
             <span class="number-badge">
               17
             </span>

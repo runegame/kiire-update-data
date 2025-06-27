@@ -4,15 +4,15 @@
     :initialValues
     :resolver
     @submit="onFormSubmit"
-    class="flex flex-col gap-8 w-full"
+    class="ki:flex ki:flex-col ki:gap-8 ki:w-full"
   >
-    <div class="flex text-xl font-bold justify-between items-center">
+    <div class="ki:flex ki:text-xl ki:font-bold ki:justify-between ki:items-center">
       <div class="text-[#171B5B]">Tus contactos</div>
       <div class="text-gray-500 font-light">4 - 7</div>
     </div>
 
-    <div class="flex flex-col gap-2">
-      <label class="flex items-center gap-4" for="mainPhone">
+    <div class="ki:flex ki:flex-col ki:gap-2">
+      <label class="ki:flex ki:items-center ki:gap-4" for="mainPhone">
             <span class="number-badge">
               11
             </span>
@@ -35,8 +35,8 @@
       </Message>
     </div>
 
-    <div class="flex flex-col gap-2">
-      <label class="flex items-center gap-4" for="fullName">
+    <div class="ki:flex ki:flex-col ki:gap-2">
+      <label class="ki:flex ki:items-center ki:gap-4" for="fullName">
             <span class="number-badge">
               12
             </span>
@@ -60,8 +60,8 @@
       </Message>
     </div>
 
-    <div class="flex flex-col gap-2">
-      <label class="flex items-center gap-4" for="fullName">
+    <div class="ki:flex ki:flex-col ki:gap-2">
+      <label class="ki:flex ki:items-center ki:gap-4" for="fullName">
             <span class="number-badge">
               13
             </span>
@@ -85,8 +85,8 @@
       </Message>
     </div>
 
-    <div class="flex flex-col gap-2">
-      <label class="flex items-center gap-4" for="fullName">
+    <div class="ki:flex ki:flex-col ki:gap-2">
+      <label class="ki:flex ki:items-center ki:gap-4" for="fullName">
             <span class="number-badge">
               14
             </span>

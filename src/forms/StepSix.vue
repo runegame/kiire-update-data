@@ -1,12 +1,12 @@
 <template>
-  <Form v-slot="$form" :initialValues :resolver @submit="onFormSubmit" class="flex flex-col gap-8 w-full">
-    <div class="flex text-xl font-bold justify-between items-center">
+  <Form v-slot="$form" :initialValues :resolver @submit="onFormSubmit" class="ki:flex ki:flex-col ki:gap-8 ki:w-full">
+    <div class="ki:flex ki:text-xl ki:font-bold ki:justify-between ki:items-center">
       <div class="text-[#171B5B]">Comunicaciones</div>
       <div class="text-gray-500 font-light">6 - 7</div>
     </div>
 
-    <div class="flex flex-col gap-2">
-      <label class="flex items-center gap-4" for="fullName">
+    <div class="ki:flex ki:flex-col ki:gap-2">
+      <label class="ki:flex ki:items-center ki:gap-4" for="fullName">
             <span class="number-badge">
               18
             </span>
@@ -14,17 +14,17 @@
         ¿Por dónde quieres recibir información?
       </label>
 
-      <div class="flex flex-col gap-2">
-        <RadioButtonGroup name="communicationChannels" class="flex flex-wrap gap-4">
-          <div class="flex items-center gap-2">
+      <div class="ki:flex ki:flex-col ki:gap-2">
+        <RadioButtonGroup name="communicationChannels" class="ki:flex flex-wrap ki:gap-4">
+          <div class="ki:flex ki:items-center ki:gap-2">
             <RadioButton inputId="ambos" value="Ambos" />
             <label for="ambos">Ambos</label>
           </div>
-          <div class="flex items-center gap-2">
+          <div class="ki:flex ki:items-center ki:gap-2">
             <RadioButton inputId="celular" value="Celular" />
             <label for="celular">Celular</label>
           </div>
-          <div class="flex items-center gap-2">
+          <div class="ki:flex ki:items-center ki:gap-2">
             <RadioButton inputId="email" value="Correo electrónico" />
             <label for="email">Correo electrónico</label>
           </div>
@@ -48,8 +48,8 @@
       </Message>
     </div>
 
-    <div class="flex flex-col gap-2">
-      <label class="flex items-center gap-4" for="receiveInformation">
+    <div class="ki:flex ki:flex-col ki:gap-2">
+      <label class="ki:flex ki:items-center ki:gap-4" for="receiveInformation">
             <span class="number-badge">
               19
             </span>
@@ -70,8 +70,8 @@
       </Message>
     </div>
 
-    <div class="flex flex-col gap-2">
-      <label class="flex items-center gap-4" for="receiveCredits">
+    <div class="ki:flex ki:flex-col ki:gap-2">
+      <label class="ki:flex ki:items-center ki:gap-4" for="receiveCredits">
             <span class="number-badge">
               20
             </span>
