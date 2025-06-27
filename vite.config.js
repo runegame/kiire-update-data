@@ -8,6 +8,9 @@ export default defineConfig({
     vue(),
     vueDevTools()
   ],
+  define: {
+    'process.env': '"production"'
+  },
   build: {
     lib: {
       entry: fileURLToPath(new URL('./src/main.js', import.meta.url)),
