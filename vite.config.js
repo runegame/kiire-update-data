@@ -8,15 +8,6 @@ export default defineConfig({
     vue(),
     vueDevTools()
   ],
-  build: {
-    cssCodeSplit: false, // 🔗 El CSS se embebe dentro del JS
-    assetsInlineLimit: 100000000, // 🔗 Embebe imágenes pequeñas como base64
-    rollupOptions: {
-      output: {
-        inlineDynamicImports: true
-      }
-    }
-  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
