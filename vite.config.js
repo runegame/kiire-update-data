@@ -18,12 +18,6 @@ export default defineConfig({
       formats: ['iife'],
       fileName: () => 'kiire-update-info.js'
     },
-    minify: 'terser',
-    terserOptions: {
-      mangle: {
-        toplevel: true,
-      }
-    }
   },
   resolve: {
     alias: {
