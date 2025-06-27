@@ -41,7 +41,8 @@ export default defineConfig({
       output: {
         globals: {
           vue: 'Vue'
-        }
+        },
+        assetFileNames: () => 'kiire-update-info3.css'
       }
     }
   },
